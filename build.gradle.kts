@@ -64,6 +64,8 @@ dependencies {
 
     // Testing
     testImplementation("junit:junit:4.13.2")
+    testImplementation("org.jetbrains.kotlin:kotlin-test:1.9.23")
+    testImplementation("org.jetbrains.kotlin:kotlin-test-junit:1.9.23")
     testImplementation("org.mockito.kotlin:mockito-kotlin:5.1.0")
     testImplementation("io.mockk:mockk:1.13.10")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")

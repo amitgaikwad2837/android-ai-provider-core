@@ -1,0 +1,29 @@
+{
+  "name": "android-ai-provider-core",
+  "version": "1.0.0",
+  "description": "Pluggable AI provider framework for Android SDKs",
+  "platform": "android",
+  "category": "shared-foundation",
+  "minSdk": 24,
+  "targetSdk": 34,
+  "language": "kotlin",
+  "buildSystem": "gradle",
+  "aiProviders": [
+    "local-ai",
+    "openai",
+    "gemini",
+    "anthropic",
+    "ollama",
+    "openrouter",
+    "huggingface",
+    "custom"
+  ],
+  "capabilities": [
+    "chat",
+    "vision",
+    "ocr",
+    "speech",
+    "embedding"
+  ],
+  "tags": ["android", "shared", "ai-provider", "foundation"]
+}
